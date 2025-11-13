@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 56px;
+}
+
+#home {
+    height: calc(100vh - 56px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://placehold.co/1920x1080/6E4A34/FFFFFF?text=Gato+fofo+com+caf%C3%A9') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card-detalhes {
+    display: none;
+}
+
+#equipe img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #ffc107;
+}
+
+.navbar.navbar-scrolled {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    transition: box-shadow 0.3s ease-in-out;
+}
